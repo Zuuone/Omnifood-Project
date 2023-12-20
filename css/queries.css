@@ -119,6 +119,7 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -196,7 +197,7 @@
   }
 
   .grid-footer {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
   }
 
   .logo-col,
